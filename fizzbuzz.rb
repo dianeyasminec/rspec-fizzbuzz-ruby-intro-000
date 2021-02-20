@@ -4,7 +4,7 @@
 def fizzbuzz(number)
   if number % 3 == 0 # if the number int is divisible by 3
     "Fizz" # Go fizz
-  else 
+  else
     if number % 5==0
       "Buzz"
     else
@@ -13,7 +13,7 @@ def fizzbuzz(number)
       end
     end
   end
-   
+
  end
 end
 
