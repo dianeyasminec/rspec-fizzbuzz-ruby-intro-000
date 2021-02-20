@@ -3,10 +3,10 @@
 
 def fizzbuzz(number)
   if number % 3 == 0 # if the number int is divisible by 3
-    "Fizz" # Go fizz
+    return "Fizz" # Go fizz
   end
   if number % 5==0
-    "Buzz"
+    return "Buzz"
   end
   if number % 3 ==0 && number % 5 ==0
     return "FizzBuzz"
